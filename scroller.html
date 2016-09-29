@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>2D gaming using Processing.js</title>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="lib/processing.js"></script>
+    <script type="text/javascript" src="processing-lazyload.js"></script>
+    <script type="text/javascript" src="minim.js"></script>
+    <script type="text/javascript" src="canvasFocus.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body><script type="text/javascript" src="../../minim.js"></script>
+
+    <figure>
+      <canvas data-processing-sources="codebase.pde sketches/mario/sketch00.pde"></canvas>
+       <figcaption>An empty game world</figcaption>
+    </figure> 
+
+    <p>So, let's find some pictures for all these different things:</p>
+
+    <ol style="line-height: 2.5em;">
+      <li>Standing around: <img src="graphics/mario/small/Standing-mario.gif"></li>
+      <li>Running: <img src="graphics/mario/small/Running-mario.gif"></li>
+      <li>Jumping: <img src="graphics/mario/small/Jumping-mario.gif"></li>
+      <li>Losing: <img src="graphics/mario/small/Dead-mario.gif"></li>
+    </ol>
+
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch01.pde"></canvas>
+       <figcaption>A world with a Mario</figcaption>
+    </figure>
+
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch02.pde"></canvas>
+       <figcaption>A world with a Mario. And gravity.</figcaption>
+    </figure>
+    
+
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch03.pde"></canvas>
+       <figcaption>A world with a Mario. And gravity. And controls</figcaption>
+    </figure>
+    
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch04.pde"></canvas>
+       <figcaption>A much nicer looking Mario</figcaption>
+    </figure>
+    
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch04b.pde"></canvas>
+       <figcaption>Now at 30 frames per second</figcaption>
+    </figure>
+
+    <figure>
+      <canvas data-processing-sources="codebase.pde preloads.pde sketches/mario/sketch17.pde"></canvas>
+       <figcaption>My very own remix of the game we've been making</figcaption>
+    </figure>
+  </body>
+</html> 
